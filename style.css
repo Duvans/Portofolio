@@ -9,7 +9,7 @@
 {
     width: 100%;
     height: 100px;
-    background-image: url("../Images/apple.jpg");
+    background-image: url("apple.jpg");
     background-color: white;
     background-size: 7%;
     background-position: center; 
@@ -81,7 +81,7 @@ a
 
 .text
 {
-    background-image: url(../Images/applebg3.png);
+    background-image: url(applebg3.png);
     background-position: center;
     padding: 100px;
 }
@@ -128,7 +128,7 @@ a
 {
     display: flex;
     padding: 50px;
-    background-image: url("../Images/applebg2.jpg");
+    background-image: url("applebg2.jpg");
     background-position: right;
 }
 
