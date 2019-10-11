@@ -1,0 +1,245 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+    width: 100%;
+    height: 100px;
+    background-image: url("../Images/apple.jpg");
+    background-color: white;
+    background-size: 7%;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.footer
+{
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+
+    color: white;
+    font-size: 20px;
+
+    position: fixed;
+    background-color: black;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer > p
+{
+    width: 200%;
+    height: 50px;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+    position: fixed;
+    background-color: black;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+
+.navbar
+{
+    background-color: black;
+    top: 0;
+    position: sticky;
+    text-align: center;
+}
+
+.navbar div
+{
+    display: inline-block;
+    padding: 30px;
+}
+
+.navbar > div:hover
+{
+    background-color:yellow;
+    transition: 0.2s ease-in-out;
+    color:black;
+}
+
+
+.text
+{
+    background-image: url(../Images/applebg3.png);
+    background-position: center;
+    padding: 100px;
+}
+
+.portofolio
+{
+    padding: 0;
+    position: relative;
+}
+
+.portofolio ul
+{
+    display: none;
+    list-style-type: none;
+}
+
+.portofolio:hover > ul
+{
+    
+    display: inline-block;
+    position: absolute;
+
+    background-color: greenyellow;
+    color: black;
+
+    top: 100%;
+    left: 0;
+
+    width: 100%;
+}
+
+.portofolio:hover > ul > li
+{
+    padding: 20px;
+    text-align: center;
+}
+
+.portofolio > ul > li:hover
+{
+    background-color: skyblue;
+} 
+
+.contactContainer
+{
+    display: flex;
+    padding: 50px;
+    background-image: url("../Images/applebg2.jpg");
+    background-position: right;
+}
+
+.contactContainer > h1
+{
+    text-align: center;
+}
+
+.contact
+{
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    border: 2px solid transparent;
+    border-radius: 80px;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lineContainer > h1
+{
+    margin: 0;
+    text-align: center;
+}
+
+.itemList
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    margin-left: 100px;  
+    margin-right: 100px;
+}
+
+.item img 
+{
+    margin: 20px 0;
+    height: 150px;
+    max-width: 150px;
+    object-fit: cover;
+}
+.item .itemInfo 
+{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.itemInfo
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.itemInfo > h4 
+{
+    margin: 0 40px;
+    text-align: center;
+}
+
+.images > img
+{
+    width: 100%;
+    height: 0%;
+}
+
+.images2 > img
+{
+    width: 100%;
+    height: 0%;
+    padding: 10px;
+}
+
+.images3 > img
+{
+    width: 100%;
+    height: 0%;
+}
+
+.images4 > img
+{
+    width: 100%;
+    height: 0%;
+    background-position: center;
+}
+
+.images5 > img
+{
+    width: 100%;
+    height: 0%;
+}
+
+.images6 > img
+{
+    width: 100%;
+    height: 0%;
+    padding: 15px;
+}
+
